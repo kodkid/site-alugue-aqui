@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    background-color:#101113;
+   color: #fff;
+}
+header{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color:#fff;
+    font-size: 28px;
+    font-weight: bold;
+}
+.logo i{
+    color:#fff;
+    font-size: 32px;
+    margin-right: 5px;
+}
+
+.navegação{
+    display:flex;
+
+}
+.navegação a{
+    color:#fff;
+    font-size: var(--p-font);
+    font-weight: 500;
+    margin: 0 30px;
+    transition: a .55s ease;
+
+}
+.navegação a:hover{
+    color:deepskyblue;
+
+}
+.is-icons{
+    display: flex;
+    align-items: center;
+
+}
+#menu{
+    font-size: 35px;
+    color:#fff;
+    z-index: 10001;
+    cursor: pointer;
+}
+.is-icons i{
+    margin-right:25px;
+    font-size: 28px;
+    cursor:pointer;
+    transition: all .55 ease;
+}
+.is-icons i:hover{
+    transform: translateY(-5px);
+    color:deepskyblue;
+}
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    align-items: center;
+    gap:2rem;
+}
+.home-text h1{
+    font-size:var(--h1-font);
+    line-height: 1.2;
+    margin-top: 2px;
+}
+.home-text h5{
+    color:#ffffff99;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+.home-text h3{
+    font-size:40px;
+    font-weight:700;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+}
+.home-img img{
+    max-width: 100%;
+    width: 40rem;
+    height: auto;
+    margin-left: 25%;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 70px;
+    font-size: 16px;
+    font-weight:500;
+    background-color: transparent;
+    border: solid 2px white;
+    transition: all.55 ease;
+    color: white;
+
+}
+.btn :hover{
+    background-color:deepskyblue;
+    border: 2px solid deepskyblue;
+    color: #000;
+}
