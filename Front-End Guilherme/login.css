@@ -4,6 +4,9 @@
     margin: 0;
     font-family: 'Noto Sans',sans-serif;
  }
+ body * {
+   box-sizing: border-box;
+ }
  
  .main-login{
     width: 100vw;
@@ -20,6 +23,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+ }
+ .h1{
+   color: white;
+ 
  }
  .left-login > h1{
     color:orange;
@@ -41,7 +48,7 @@
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #2f2841;
+    background: #201b2c;
     border-radius:  20px;
     box-shadow: 0px 10px 40px #00000056;
  }
@@ -58,6 +65,22 @@
     justify-content: center;
     margin: 10px 0px;
  }
+ .textfield p {
+   color: white; 
+   display: inline;
+   margin: 20px; 
+}
+
+.textfield a {
+   margin-left: 5px; 
+   text-decoration: underline; 
+   color: white;
+}
+
+.textfield a:hover {
+   color: orange; 
+}
+
  .textfield > input{
     width: 100%;
     border: none;
@@ -71,11 +94,11 @@
     box-sizing: border-box;
  }
  .textfield > label{
-    color: #f0ffffde;
+    color: orange;
     margin-bottom: 10px;
  }
  .textfield > input::placeholder{
-    color: #f0ffff94;
+    color: white;
  }
  .btn-login{
     width: 100%;
@@ -90,8 +113,14 @@
     color: #2b314b;
     background-color: orange;
     cursor: pointer;
-    box-shadow: 0px 10px -12px #00ff8052;
+    box-shadow: 0px 10px -12px orange;
  }
+ .btn-login:hover {
+   background-color: deepskyblue;
+   transform: scale(1.05);
+   box-shadow: 0px 15px 30px black;
+ }
+
  @media only screen and (max-width: 950px){
     .carde-login{
         width: 85%;
@@ -108,6 +137,9 @@
     .left-login{
         width: 100%;
         height: auto;
+    }
+    .left-login-img{
+      width: 50vw;
     }
  }
 

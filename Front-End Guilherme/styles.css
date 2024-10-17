@@ -9,7 +9,7 @@
 
 
 body{
-    background-color:#101113;
+    background-color:#201b2c;
    color: #fff;
 }
 header{
@@ -26,12 +26,12 @@ header{
 .logo{
     display: flex;
     align-items: center;
-    color:#fff;
+    color:orange;
     font-size: 28px;
     font-weight: bold;
 }
 .logo i{
-    color:#fff;
+    color:orange;
     font-size: 32px;
     margin-right: 5px;
 }
@@ -41,7 +41,7 @@ header{
 
 }
 .navegação a{
-    color:#fff;
+    color:orange;
     font-size: var(--p-font);
     font-weight: 500;
     margin: 0 30px;
@@ -59,7 +59,7 @@ header{
 }
 #menu{
     font-size: 35px;
-    color:#fff;
+    color:orange;
     z-index: 10001;
     cursor: pointer;
 }
